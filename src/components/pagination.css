@@ -1,0 +1,27 @@
+.button-pagination{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-bottom: 30px;
+}
+
+button {
+    background: transparent;
+    color: #176B87;
+    border-color: #176B87;
+    width: 30px;
+    height: 30px;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 12px;
+    margin: 0 5px;
+    border-radius: 6px;
+}
+
+button.active {
+    font-weight: 900;
+    border-color: #176B87;
+    background: #176B87;
+    color: #fff;
+}
